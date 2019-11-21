@@ -1,0 +1,89 @@
+*{box-sizing:border-box;}
+
+body {
+background-color: #411F43 ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-form {
+  width: 50%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+  
+box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+
+}
+   h2 {
+    width: 100%;
+    color: white;
+    font-size: 1.35em;
+    display: block;
+    background:#764F7A;
+    width: 100%;
+    padding: .75em 1em .75em 1.5em;
+    box-shadow:inset 0px 1px 1px fadeout(white, 95%);
+    margin: 0;
+    font-weight: 200;
+  }
+
+  .input-container{
+    display: block;
+    width: 95%;
+    margin: 1em;
+    border: 1px solid #eaeaea;
+
+  }
+
+  
+  input {
+    color: #757575;
+    width: 90%;
+    padding: 1.1em;
+    border: none;
+
+  }
+
+  form {
+    display: block;
+    width: 100%;
+    padding: 2em 1em;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: white;
+    border-radius: 2px;
+    background:#764F7A;
+    padding: .6em 2em;
+    color: white;
+    margin-right: .3em;
+    margin-left: .8em;
+    box-shadow: inset 0px 1px 0px fadeout(white, 80%); 
+  }
+  
+
+  .forgot {
+    color: gray;
+    line-height: .5em;
+    position: relative;
+    top: 1em;
+    text-decoration: none;
+    font-size: .75em;
+    margin:0;
+    padding: 0;
+    float: right;
+}
+
+#icons{
+    color: gray;
+}
+  

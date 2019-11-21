@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Login</title>
+
+  {{!-- Font Awesome --}}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  {{!-- custom stylesheet --}}
+  <link href="/css/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div class="login-form">
+  <h2>Login Form</h2>
+  <form method="POST" action="/login">
+    <div class= "input-container">
+        <input type="text" title="username" placeholder="Username"/>
+        <i class="fas fa-user" id="icons"></i>
+    </div>
+
+    <div class="input-container">
+        <input type="password" title="username" placeholder="Password" />
+        <i class="fas fa-lock" id="icons"></i>
+    </div>
+    <button type="submit" class="btn">Sign In</button>
+    <a class="forgot" href="#">Lost Your Password?</a>
+  </form>
+</div>
+
+  </body>
+  </html>
