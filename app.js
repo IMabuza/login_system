@@ -28,7 +28,7 @@ app.get("/", (req, res)=>{
 });
 
 app.post("/login", (req,res, next)=>{
-    res.sendStatus(200);
+    res.sendStatus(201)
 });
 
 
