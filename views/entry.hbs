@@ -20,15 +20,8 @@
 <div class="login-form">
   <h2>Login Form</h2>
   <form method="POST" action="/login">
-    <div class= "input-container">
-        <input type="email" name="email" title="email" placeholder="email"/>
-        <i class="fas fa-user" id="icons"></i>
-    </div>
-
-    <div class="input-container">
-        <input type="password" name="password" title="password" placeholder="Password" />
-        <i class="fas fa-lock" id="icons"></i>
-    </div>
+        <input id="email_input" type="email" name="email" title="email" placeholder="Email"/>
+        <input id="password_input" type="password" name="password" title="password" placeholder="Password" />
      <p id="message">{{message}}</p>
     <p id="success">{{loggedin}}</p>
     <button type="submit" class="btn">Sign In</button>

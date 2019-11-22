@@ -49,7 +49,7 @@ app.post("/login", (req,res)=>{
         //If anything goes wrong
         if(err) throw err;
 
-        if(rows.length == 0){
+        if(rows.length < 1){
         //Email is not in db insert and return 201
         var sql_insert = "INSERT INTO users (email, password) VALUES (" + mysql.escape(email) + "," +  mysql.escape(hashed_pw) + ")"
         db_connect.query(sql_insert, (err, rows) =>{

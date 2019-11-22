@@ -3,7 +3,7 @@ const db_connect = require('mysql');
 const connection = db_connect.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '1234',
+  password: 'yellow2019',
   database: 'db'
 });
 connection.connect((err) => {
