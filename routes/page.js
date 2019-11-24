@@ -10,6 +10,12 @@ router.get("/", (req, res)=>{
     res.render("entry.hbs");
 });
 
+//Lost Password
+
+router.get("/password-reset", (req, res) =>{
+res.sendStatus(202) //Accepted
+});
+
 //When login button pressed
 router.post("/login", (req,res)=>{
 
