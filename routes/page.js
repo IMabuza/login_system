@@ -44,7 +44,6 @@ router.post("/login", (req,res)=>{
 
         //Email is in db. Check if email matches password and return 200 or 404
         var sql_pw = "SELECT password FROM users WHERE email =" + mysql.escape(email);
-        console.log(sql_pw);
         db_connect.query(sql_pw, (err, rows) =>{
             if(err) throw err;
 
